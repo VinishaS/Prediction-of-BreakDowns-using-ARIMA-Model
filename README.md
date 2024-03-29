@@ -1,1 +1,7 @@
 # Prediction-of-BreakDowns-using-ARIMA-Model
+The goal of this project is to use the Autoregressive Integrated Moving Average (ARIMA) model to estimate the number of breakdowns in a system by employing time series analytic techniques. The dataset used for analysis consists of historical breakdown data, including the year, week, department code, and breakdown count. The goal is to develop an accurate forecasting model that can assist in proactive maintenance and resource planning.
+There are several crucial steps in the project. The preprocessing of the dataset involves resolving missing values, converting data types, and organising the breakdown counts according to department code and month. 
+The Dickey-Fuller test is then used to determine whether the time series is stationarity. In order to attain stationarity, suitable transformations such differencing or seasonal differencing are used if it is determined that the series is non-stationary.
+Subsequently, the autocorrelation and partial autocorrelation plots are analysed in order to pick the ARIMA model.
+The accuracy of the ARIMA model is evaluated using commonly used metrics such as Mean Squared Error (MSE), Mean Absolute Error (MAE), and Mean Squared Error (MSE).
+These metrics provide insight on the model's functionality and precision in predicting breakdown counts. The project's outcomes show how well the ARIMA model forecasts breakdowns.
